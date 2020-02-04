@@ -80,18 +80,18 @@ chrislin:
     webpage: "https://www.christopherhlin.com/"
     role: alum
     image: /img/people/chrislin.jpg
-    bio: "Ph.D. 2016, Microsoft"
+    bio: "Ph.D., Microsoft"
 
 dai:
     display_name: "Peng Dai"
     role: alum
-    bio: "Now at JD Finance"
+    bio: "Ph.D, Now at JD Finance"
     webpage: "https://www.linkedin.com/in/daipeng/"
 
 drapeau:
     display_name: "Ryan Drapeau"
     role: alum
-    bio: "Now at Stripe"
+    bio: "MS, Now at Stripe"
     webpage: "https://www.linkedin.com/in/rdrapeau"
 
 dgorrie:
@@ -99,21 +99,21 @@ dgorrie:
     webpage: "https://www.linkedin.com/in/daniel-gorrie-49168141"
     role: alum
     image: /img/people/dgorrie.jpg
-    bio: "Pioneer Square Labs"
+    bio: "MS, Pioneer Square Labs"
 
 jbragg:
     display_name: "Jonathan Bragg"
     webpage: "https://homes.cs.washington.edu/~haichen/"
     role: alum
     image: /img/people/jbragg.jpg
-    bio: "Ph.D. 2018, Now at AI2"
+    bio: "Ph.D., Now at AI2"
 
 hmslydia:
     display_name: "Lydia Chilton"
     webpage: "http://hmslydia.com/"
     role: alum
     image: /img/people/lydia.jpg
-    bio: "Assistant Professor, Columbia University"
+    bio: "Ph.D, Now at Columbia University"
 
 wen:
     display_name: "Shih-Wen Huang"
