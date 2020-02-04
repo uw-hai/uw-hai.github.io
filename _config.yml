@@ -1,4 +1,4 @@
-name: SAMPL
+name: UW HAI
 url: http://uw-hai.github.io # Update to be CS web address
 
 exclude: [bibble, README.md, Makefile, screenshot.png]

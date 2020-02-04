@@ -30,6 +30,13 @@ cqz:
     role: grad
     image: /img/people/cqz.jpg
 
+rayfok:
+    display_name: "Raymond Fok"
+    webpage: "https://rayfok.github.io/"
+    github: rayfok
+    role: grad
+    image: /img/people/rayfok.jpg
+
 wtshuang:
     display_name: "Tongshuang (Sherry) Wu"
     webpage: "https://homes.cs.washington.edu/~wtshuang/"
