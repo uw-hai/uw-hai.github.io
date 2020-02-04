@@ -57,12 +57,12 @@ wtshuang:
 zhou:
     display_name: "Joyce Zhou"
     role: ugrad
-    image: /img/people/zhou.jpg
+    #image: /img/people/placeholder.jpg
 
 sippy:
     display_name: "Jake Sippy"
     role: ugrad
-    image: /img/people/sippy.jpg
+    #image: /img/people/placeholder.jpg
 
 
 # Alums
@@ -109,8 +109,8 @@ hmslydia:
 
 # Undergrad Alums
 # Alphabetical order
-lynsey:
-    display_name: "Lynsey Liu"
+huang:
+    display_name: "Ziyao Huang"
     role: ugrad-alum 
     bio: "Now at Microsoft"
 
@@ -118,3 +118,9 @@ iftime:
     display_name: "Diana Iftimie"
     role: ugrad-alum 
     bio: "Now at Microsoft"
+
+lynsey:
+    display_name: "Lynsey Liu"
+    role: ugrad-alum 
+    bio: "Now at Microsoft"
+

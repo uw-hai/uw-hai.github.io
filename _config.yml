@@ -21,7 +21,7 @@ roles:
   - key: grad
     name: Graduate Students
   - key: ugrad
-    name: Undergraduate Students
+    name: Masters & Undergraduate Students
   - key: ugrad-alum
     name: Past Undergraduate Students
   - key: collab
