@@ -47,6 +47,27 @@ wtshuang:
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
 
+akolobov:
+    display_name: "Andrey Kolobov"
+    webpage: "https://homes.cs.washington.edu/~haichen/"
+    role: alum
+    image: /img/people/akolobov.jpg
+    bio: "Ph.D., Microsoft Research"
+
+chrislin:
+    display_name: "Christopher Lin"
+    webpage: "https://www.jonathanbragg.com/"
+    role: alum
+    image: /img/people/chrislin.jpg
+    bio: "Ph.D., Microsoft"
+
+dgorrie:
+    display_name: "Daniel Gorrie"
+    webpage: "https://www.linkedin.com/in/daniel-gorrie-49168141"
+    role: alum
+    image: /img/people/dgorrie.jpg
+    bio: "Pioneer Square Labs"
+
 jbragg:
     display_name: "Jonathan Bragg"
     webpage: "https://homes.cs.washington.edu/~haichen/"
@@ -54,6 +75,12 @@ jbragg:
     image: /img/people/jbragg.jpg
     bio: "Ph.D., Now at AI2"
 
+hmslydia:
+    display_name: "Lydia Chilton"
+    webpage: "http://hmslydia.com/"
+    role: alum
+    image: /img/people/lydia.jpg
+    bio: "Assistant Professor, Columbia University"
 
 # Undergrads
 # Alphabetical order
