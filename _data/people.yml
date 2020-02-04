@@ -1,0 +1,57 @@
+# Faculty
+# Alphabetical order
+
+danw:
+    display_name: "Dan Weld"
+    webpage: "https://homes.cs.washington.edu/~danw/"
+    role: faculty
+    image: /img/people/dan.jpg
+    bio: "Professor"
+
+
+# Postdocs/Collaborators
+# Alphabetical order
+
+# Grads
+# Alphabetical order
+
+
+bansalg:
+    display_name: "Gagan Bansal"
+    webpage: "https://homes.cs.washington.edu/~bansalg/"
+    github: gagb
+    role: grad
+    image: /img/people/bansalg.jpg
+
+cqz:
+    display_name: "Quanze (Jim) Chen"
+    webpage: "https://homes.cs.washington.edu/~cqz/"
+    github: jabbany
+    role: grad
+    image: /img/people/cqz.jpg
+
+wtshuang:
+    display_name: "Tongshuang (Sherry) Wu"
+    webpage: "https://homes.cs.washington.edu/~wtshuang/"
+    role: grad
+    image: /img/people/wtshuang.jng
+
+
+# Alums
+# The order is: PhD/postdoc by year; MS by year; BS by year
+
+jbragg:
+    display_name: "Jonathan Bragg"
+    webpage: "https://homes.cs.washington.edu/~haichen/"
+    role: alum
+    image: /img/people/jbragg.jpg
+    bio: "Ph.D., Now at AI2"
+
+
+# Undergrads
+# Alphabetical order
+
+
+# Undergrad Alums
+# Alphabetical order
+
