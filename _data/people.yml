@@ -6,7 +6,7 @@ danw:
     webpage: "https://www.cs.washington.edu/people/faculty/weld"
     role: faculty
     image: /img/people/danw.jpg
-    bio: "Professor"
+    #bio: "Professor"
 
 
 # Postdocs/Collaborators
@@ -73,58 +73,58 @@ akolobov:
     webpage: "https://homes.cs.washington.edu/~haichen/"
     role: alum
     image: /img/people/akolobov.jpg
-    bio: "Ph.D., Microsoft Research"
+    bio: "Now at Microsoft Research"
 
 chrislin:
     display_name: "Christopher Lin"
     webpage: "https://www.christopherhlin.com/"
     role: alum
     image: /img/people/chrislin.jpg
-    bio: "Ph.D., Microsoft"
+    bio: "Now at Microsoft/Semantic Machines"
 
 dai:
     display_name: "Peng Dai"
     role: alum
-    bio: "Ph.D, Now at JD Finance"
+    bio: "Now at JD Finance"
     webpage: "https://www.linkedin.com/in/daipeng/"
 
 drapeau:
     display_name: "Ryan Drapeau"
-    role: alum
+    role: ugrad-alum
     bio: "MS, Now at Stripe"
     webpage: "https://www.linkedin.com/in/rdrapeau"
 
 dgorrie:
     display_name: "Daniel Gorrie"
     webpage: "https://www.linkedin.com/in/daniel-gorrie-49168141"
-    role: alum
+    role: ugrad-alum
     image: /img/people/dgorrie.jpg
-    bio: "MS, Pioneer Square Labs"
+    bio: "MS, Now at Stripe"
 
 jbragg:
     display_name: "Jonathan Bragg"
     webpage: "https://homes.cs.washington.edu/~haichen/"
     role: alum
     image: /img/people/jbragg.jpg
-    bio: "Ph.D., Now at AI2"
+    bio: "Now at AI2"
 
 hmslydia:
     display_name: "Lydia Chilton"
     webpage: "http://hmslydia.com/"
     role: alum
     image: /img/people/lydia.jpg
-    bio: "Ph.D, Now at Columbia University"
+    bio: "Now at Columbia University"
 
 wen:
     display_name: "Shih-Wen Huang"
-    role: alum
-    webpage: "//www.linkedin.com/in/shih-wen-huang-149b7757"
-    bio: "Jizhi.co"
+    role: ugrad-alum
+    webpage: "www.linkedin.com/in/shih-wen-huang-149b7757"
+    bio: "MS, Jizhi.co"
 
 jonany:
     display_name: "Stephen Jonany"
-    role: alum
-    bio: "Now at Google"
+    role: ugrad-alum
+    bio: "MS, Now at Google"
     webpage: "//www.linkedin.com/in/stephen-jonany-81b89429"
 
 # Undergrads
@@ -136,15 +136,15 @@ jonany:
 huang:
     display_name: "Ziyao Huang"
     role: ugrad-alum 
-    bio: "Now at Microsoft"
+    bio: "BS, Now at Brown University"
 
 iftime:
     display_name: "Diana Iftimie"
     role: ugrad-alum 
-    bio: "Now at Microsoft"
+    bio: "BS, Now at Microsoft"
 
 lynsey:
     display_name: "Lynsey Liu"
     role: ugrad-alum 
-    bio: "Now at Microsoft"
+    bio: "BS, Now at Microsoft"
 
