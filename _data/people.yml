@@ -15,7 +15,6 @@ danw:
 # Grads
 # Alphabetical order
 
-
 bansalg:
     display_name: "Gagan Bansal"
     webpage: "https://homes.cs.washington.edu/~bansalg/"
@@ -30,6 +29,18 @@ cqz:
     role: grad
     image: /img/people/cqz.png
 
+lee:
+    display_name: "Benjamin Lee"
+    webpage: "https://www.bcglee.com"
+    role: grad
+    image: /img/people/lee.png
+
+radensky:
+    display_name: "Marissa Radensky"
+    webpage:
+    role: grad
+    image: /img/people/radensky.jpg
+
 rayfok:
     display_name: "Raymond Fok"
     webpage: "https://rayfok.github.io/"
@@ -42,6 +53,16 @@ wtshuang:
     webpage: "https://homes.cs.washington.edu/~wtshuang/"
     role: grad
     image: /img/people/wtshuang.png
+
+zhou:
+    display_name: "Joyce Zhou"
+    role: ugrad
+    image: /img/people/zhou.jpg
+
+sippy:
+    display_name: "Jake Sippy"
+    role: ugrad
+    image: /img/people/sippy.jpg
 
 
 # Alums
@@ -59,7 +80,7 @@ chrislin:
     webpage: "https://www.jonathanbragg.com/"
     role: alum
     image: /img/people/chrislin.jpg
-    bio: "Ph.D., Microsoft"
+    bio: "Ph.D. 2016, Microsoft"
 
 dgorrie:
     display_name: "Daniel Gorrie"
@@ -73,7 +94,7 @@ jbragg:
     webpage: "https://homes.cs.washington.edu/~haichen/"
     role: alum
     image: /img/people/jbragg.jpg
-    bio: "Ph.D., Now at AI2"
+    bio: "Ph.D. 2018, Now at AI2"
 
 hmslydia:
     display_name: "Lydia Chilton"
@@ -88,4 +109,12 @@ hmslydia:
 
 # Undergrad Alums
 # Alphabetical order
+lynsey:
+    display_name: "Lynsey Liu"
+    role: ugrad-alum 
+    bio: "Now at Microsoft"
 
+iftime:
+    display_name: "Diana Iftimie"
+    role: ugrad-alum 
+    bio: "Now at Microsoft"

@@ -16,8 +16,8 @@ roles:
   # Restore me when we add some staff
   # - key: staff
   #   name: Staff
-  - key: postdoc
-    name: Researchers
+  #- key: postdoc
+    #name: Researchers
   - key: grad
     name: Graduate Students
   - key: ugrad
