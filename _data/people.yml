@@ -3,9 +3,9 @@
 
 danw:
     display_name: "Dan Weld"
-    webpage: "https://homes.cs.washington.edu/~danw/"
+    webpage: "https://www.cs.washington.edu/people/faculty/weld"
     role: faculty
-    image: /img/people/dan.jpg
+    image: /img/people/danw.jpg
     bio: "Professor"
 
 
@@ -28,7 +28,7 @@ cqz:
     webpage: "https://homes.cs.washington.edu/~cqz/"
     github: jabbany
     role: grad
-    image: /img/people/cqz.jpg
+    image: /img/people/cqz.png
 
 rayfok:
     display_name: "Raymond Fok"
@@ -41,7 +41,7 @@ wtshuang:
     display_name: "Tongshuang (Sherry) Wu"
     webpage: "https://homes.cs.washington.edu/~wtshuang/"
     role: grad
-    image: /img/people/wtshuang.jng
+    image: /img/people/wtshuang.png
 
 
 # Alums
