@@ -115,6 +115,36 @@ hmslydia:
     image: /img/people/lydia.jpg
     bio: "Now at Columbia University"
 
+hoffmann:
+    display_name: "Raphael Hoffmann"
+    webpage: "http://raphaelhoffmann.com"
+    role: alum
+    bio: "Now at Google"
+
+edar:
+    display_name: "Eytan Adar"
+    webpage: "https://www.si.umich.edu/people/eytan-adar"
+    role: alum
+    bio: "Now at University of Michigan"
+
+gajos:
+    display_name: "Krzysztof Gajos"
+    webpage: "https://www.eecs.harvard.edu/~kgajos/"
+    role: alum
+    bio: "Now at Harvard"
+
+lau: 
+    display_name: "Tessa Lau"
+    webpage: "https://www.linkedin.com/in/tessalau"
+    role: alum
+    bio: "Now at Dusty Robotics"
+
+corin: 
+    display_name: "Corin Anderson"
+    role: alum
+    bio: "Now at Google"
+    webpage: "https://www.linkedin.com/in/corin-anderson-449238102"
+
 wen:
     display_name: "Shih-Wen Huang"
     role: ugrad-alum
@@ -150,4 +180,52 @@ lynsey:
     role: ugrad-alum 
     bio: "BS, Now at Microsoft"
     webpage: "https://www.linkedin.com/in/lynseyliu"
+
+jbragg2:
+    display_name: "Jonathan Bragg"
+    webpage: "https://www.jonathanbragg.com"
+    role: collab 
+
+
+downey:
+    display_name: "Doug Downey"
+    webpage: "https://users.cs.northwestern.edu/~ddowney/"
+    role: collab
+
+findlater:
+    display_name: "Leah Findlater"
+    webpage: "https://www.hcde.washington.edu/findlater"
+    role: collab
+
+
+heer:
+    display_name: "Jeff Heer"
+    webpage: "https://homes.cs.washington.edu/~jheer/"
+    role: collab
+
+kamar:
+    display_name: "Ece Kamar"
+    webpage: "https://www.ecekamar.com"
+    role: collab
+
+
+mausam:
+    display_name: "Mausam"
+    webpage: "http://www.cse.iitd.ernet.in/~mausam/"
+    role: collab
+
+marco:
+    display_name: "Marco Tulio Ribeiro"
+    webpage: "https://homes.cs.washington.edu/~marcotcr/"
+    role: collab
+
+nushi:
+    display_name: "Besmira Nushi"
+    webpage: "https://www.microsoft.com/en-us/research/people/benushi/"
+    role: collab
+
+zhang:
+    display_name: "Amy Zhang"
+    webpage: "https://homes.cs.washington.edu/~axz/"
+    role: collab
 
