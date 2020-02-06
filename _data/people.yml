@@ -203,6 +203,12 @@ heer:
     webpage: "https://homes.cs.washington.edu/~jheer/"
     role: collab
 
+horvitz:
+    display_name: "Eric Horvitz"
+    webpage: "http://erichorvitz.com"
+    role: collab
+
+
 kamar:
     display_name: "Ece Kamar"
     webpage: "https://www.ecekamar.com"
