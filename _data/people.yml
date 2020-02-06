@@ -57,7 +57,8 @@ wtshuang:
 zhou:
     display_name: "Joyce Zhou"
     role: ugrad
-    #image: /img/people/placeholder.jpg
+    webpage: "https://cephcyn.github.io/"
+    image: /img/people/joyce.png
 
 sippy:
     display_name: "Jake Sippy"
