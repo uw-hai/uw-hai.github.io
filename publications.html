@@ -10,3 +10,12 @@ title: Publications
 
 <div id="pubs">
 </div>
+
+<script type="text/javascript">
+(function () {
+  window.addEventListener('load', function () {
+    var bib = new BiblioLoader();
+    bib.createBiblioDOM(document.getElementById('pubs'), DFC);
+  });
+})();
+</script>

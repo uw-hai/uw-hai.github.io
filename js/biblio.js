@@ -26,8 +26,8 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
   }
   
   function _paperComparator(a, b) {
-    var time_a = getSimpleDate(a['time']['year'], a['time']['date']),
-        time_b = getSimpleDate(b['time']['year'], b['time']['date']);
+    var time_a = getSimpleDate(a['time']['year'], a['time']['month']),
+        time_b = getSimpleDate(b['time']['year'], b['time']['month']);
     if (time_a < time_b) {
       return -1
     } else if (time_a > time_b) {
@@ -47,10 +47,23 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
       _('td', {}, [
         _('span', { 'className': 'date' }, [
           _('big', {}, [_('strong', {}, [_('', paper['time']['year'])])]),
-          _('', paper['time']['date'])
+          _('', paper['time']['month'])
         ])
       ]),
-      _('td', { 'className': 'publication' }, []),
+      _('td', { 'className': 'publication' }, [
+        _('span', { 'className': 'pubtitle' }, 
+          paper['url'].trim() !== '' ? [
+            _('img', { 
+              'src': 'img/pdficon_small.png', 
+              'style': {'width': '16px', 'height': '16px'},
+              'alt': 'PDF'
+            }),
+            _('a', { 'href': paper['url'] }, [ _('', paper['title']) ])
+          ] : [
+            _('', paper['title'])
+          ]
+        )
+      ]),
     ]);
   }
 
@@ -115,9 +128,12 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
     if (typeof groupOrder === 'undefined' || groupOrder === null) {
       return this.load.then(function (papers) {
         papers.sort(_paperComparator);
-        return _('table', {}, papers.map(function (paper) {
-          return _paperRenderer(_, paper);
-        }));
+        parent.innerHTML = '';
+        parent.appendChild(_('table', {}, [
+          _('tbody', {}, papers.map(function (paper) {
+            return _paperRenderer(_, paper);
+          }))]));
+        return papers;
       });
     } else {
       return this.loadGrouped.then(function (grouped) {
