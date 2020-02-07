@@ -46,6 +46,8 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
   }
 
   function _paperRenderer(_, paper) {
+    var badgeType = (paper['type'] == 'Conference Paper') ?
+      'badge-success' : 'badge-primary';
     return _('tr', {}, [
       _('td', {}, [
         _('span', { 'className': 'date' }, [
@@ -81,8 +83,12 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
               }
             }, [])),
         _('br'),
+        _('span', { 'className': ('badge ' + badgeType) }, [
+            _('', paper['type'])
+          ]),
+        _('', ' '),
         _('span', { 'className': 'venue' }, [
-          _('', paper['venue'] + ' ' + paper['time']['year'])
+          _('', paper['venue'] + '. ' + paper['time']['year'] + '.')
         ])
       ]),
     ]);
@@ -125,6 +131,17 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
           };
         });
       })
+      .then(function(papers) {
+        // Deduplicate
+        var seenIds = {}; // Fake set
+        return papers.filter(function (paper) {
+          if (paper['id'] in seenIds) {
+            return false; // Already seen
+          }
+          seenIds[paper['id']] = true;
+          return true;
+        }); // Have mercy on leaky state
+      })
       .catch(function(error) {
         console.error('Request failed', error);
         throw error;
@@ -161,7 +178,19 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
       });
     } else {
       return this.loadGrouped().then(function (grouped) {
-        console.log('not implemented');
+        parent.innerHTML = '';
+        for (var i = 0; i < groupOrder.length; i++) {
+          var group = groupOrder[i];
+          if (group in grouped) {
+            parent.appendChild(_('h2', {}, group));
+            var papers = grouped[group];
+            papers.sort(_paperComparator);
+            parent.appendChild(_('table', { 'className': 'table' }, [
+              _('tbody', {}, papers.reverse().map(function (paper) {
+                return _paperRenderer(_, paper);
+              }))]));
+          }
+        }
       });
     }
   };
