@@ -47,6 +47,7 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
       _('td', {}, [
         _('span', { 'className': 'date' }, [
           _('big', {}, [_('strong', {}, [_('', paper['time']['year'])])]),
+          _('br'),
           _('', paper['time']['month'])
         ])
       ]),
@@ -62,7 +63,23 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
           ] : [
             _('', paper['title'])
           ]
-        )
+        ),
+        _('br'),
+        _('span', { 'className': 'authors' }, 
+          paper['authors'].map(function (author) {
+                return _('span', {}, [_('', author['name'])])
+              })
+            .reduce(function (base, record, idx, arr) {
+              if (idx === arr.length - 1) {
+                return base.concat([record]);
+              } else {
+                return base.concat([record, _('', ', ')]);
+              }
+            }, [])),
+        _('br'),
+        _('span', { 'className': 'venue' }, [
+          _('', paper['venue'] + ' ' + paper['time']['year'])
+        ])
       ]),
     ]);
   }
@@ -129,8 +146,8 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
       return this.load().then(function (papers) {
         papers.sort(_paperComparator);
         parent.innerHTML = '';
-        parent.appendChild(_('table', {}, [
-          _('tbody', {}, papers.map(function (paper) {
+        parent.appendChild(_('table', { 'className': 'table' }, [
+          _('tbody', {}, papers.reverse().map(function (paper) {
             return _paperRenderer(_, paper);
           }))]));
         return papers;
