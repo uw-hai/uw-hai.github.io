@@ -14,7 +14,10 @@ var BiblioLoader = (function (tags) {
       }).join(',');
     return fetch('https://www.cs.washington.edu/_webservices/publications/json.php?tags=' + tags, {'mode': 'cors'})
       .then(function(response) {
-        return response.json().map(function (paper) {
+        return response.json();
+      })
+      .then(function(papers) {
+        return papers.map(function (paper) {
           return {
             'title': paper['title'],
             'sort_title': paper[''],
