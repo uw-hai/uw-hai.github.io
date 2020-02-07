@@ -9,7 +9,10 @@ var BiblioLoader = (function (tags) {
   }
 
   BiblioLoader.prototype.load = function () {
-    return fetch('https://www.cs.washington.edu/_webservices/publications/json.php', {'mode': 'cors'})
+    let tags = this.tagset.map(function (tag) {
+        return encodeURIComponent(tag);
+      }).join(',');
+    return fetch('https://www.cs.washington.edu/_webservices/publications/json.php?tags=' + tags, {'mode': 'cors'})
       .then(function(response) {
         return response.json().map(function (paper) {
           return {
