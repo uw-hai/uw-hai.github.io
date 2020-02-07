@@ -88,7 +88,7 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
           ]),
         _('', ' '),
         _('span', { 'className': 'venue' }, [
-          _('', paper['venue'] + '. ' + paper['time']['year'] + '.')
+          _('', paper['venue'] + ' ' + paper['time']['year'] + '.')
         ])
       ]),
     ]);
@@ -152,10 +152,10 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
     return this.load().then(function (papers) {
       var groups = {};
       papers.forEach(function (paper) {
-        if (!(paper['biblio_type_name'] in groups)) {
-          groups[paper['biblio_type_name']] = [];
+        if (!(paper['type'] in groups)) {
+          groups[paper['type']] = [];
         }
-        groups[paper['biblio_type_name']].push(paper);
+        groups[paper['type']].push(paper);
       });
       // Sort the groups by publication time then title
       for (var group in groups) {
