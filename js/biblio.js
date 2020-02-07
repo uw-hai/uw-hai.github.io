@@ -19,12 +19,15 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
     'dec': 0.11,
     '': 0.12
   };
-  
+
   function getSimpleDate(year, month) {
-    return parseInt(year, 10) +
-      MONTHS[month.trim().substring(0, 3).toLowerCase()];
+    let cleanMonth = month.trim().substring(0, 3).toLowerCase();
+    if (!(cleanMonth in MONTHS)) {
+      cleanMonth = '';
+    }
+    return parseInt(year, 10) + MONTHS[cleanMonth];
   }
-  
+
   function _paperComparator(a, b) {
     var time_a = getSimpleDate(a['time']['year'], a['time']['month']),
         time_b = getSimpleDate(b['time']['year'], b['time']['month']);
@@ -59,6 +62,7 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
               'style': {'width': '16px', 'height': '16px'},
               'alt': 'PDF'
             }),
+            _('', ' '),
             _('a', { 'href': paper['url'] }, [ _('', paper['title']) ])
           ] : [
             _('', paper['title'])
@@ -85,6 +89,8 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
   }
 
   function BiblioLoader(tagset) {
+    this.baseUrl = 
+      'https://www.cs.washington.edu/_webservices/publications/json.php?tags=';
     this.tagset = (typeof tagset === 'undefined') ? defaultTags : tagset;
   }
 
@@ -92,13 +98,14 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
     let tags = this.tagset.map(function (tag) {
         return encodeURIComponent(tag);
       }).join(',');
-    return fetch('https://www.cs.washington.edu/_webservices/publications/json.php?tags=' + tags, {'mode': 'cors'})
+    return fetch(this.baseUrl + tags, {'mode': 'cors'})
       .then(function(response) {
         return response.json();
       })
       .then(function(papers) {
         return papers.map(function (paper) {
           return {
+            'id': paper['uid'] + '_' + paper['vid'] + '_' + paper['nid'],
             'title': paper['title'],
             'sort_title': paper['biblio_sort_title'],
             'venue': paper['biblio_secondary_title'],
