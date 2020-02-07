@@ -15,7 +15,15 @@ title: Publications
 <script type="text/javascript">
 (function () {
   window.addEventListener('load', function () {
-    var bib = new BiblioLoader();
+    var bib = new BiblioLoader([
+      "hai",
+      "crowdlab", /** Legacy Tag **/
+      "ai-crowd-train-test",
+      "crowd-argumentation",
+      "ai-bootstrapping-communities",
+      "ai-crowd-task-routing",
+      "ai-crowd-multi-label",
+      "crowd-task-design"]);
     if(window.location.hash && window.location.hash.substring(1) == 'grouped') {
       bib.createBiblioDOM(document.getElementById('pubs'), DFC, [
         'Conference Paper',

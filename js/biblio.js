@@ -179,6 +179,8 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
     } else {
       return this.loadGrouped().then(function (grouped) {
         parent.innerHTML = '';
+        console.log(groupOrder);
+        console.log(grouped);
         for (var i = 0; i < groupOrder.length; i++) {
           var group = groupOrder[i];
           if (group in grouped) {
@@ -196,11 +198,5 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
   };
 
   return BiblioLoader;
-})(["crowdlab",
-    "ai-crowd-train-test",
-    "crowd-argumentation",
-    "ai-bootstrapping-communities",
-    "ai-crowd-task-routing",
-    "ai-crowd-multi-label",
-    "crowd-task-design"], 
+})([], 
    null);
