@@ -126,7 +126,7 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
 
   BiblioLoader.prototype.createBiblioDOM = function (parent, _, groupOrder) {
     if (typeof groupOrder === 'undefined' || groupOrder === null) {
-      return this.load.then(function (papers) {
+      return this.load().then(function (papers) {
         papers.sort(_paperComparator);
         parent.innerHTML = '';
         parent.appendChild(_('table', {}, [
@@ -136,7 +136,7 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
         return papers;
       });
     } else {
-      return this.loadGrouped.then(function (grouped) {
+      return this.loadGrouped().then(function (grouped) {
         console.log('not implemented');
       });
     }
