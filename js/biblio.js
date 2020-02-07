@@ -184,7 +184,7 @@ var BiblioLoader = (function (defaultTags, defaultGroupOrder) {
         for (var i = 0; i < groupOrder.length; i++) {
           var group = groupOrder[i];
           if (group in grouped) {
-            parent.appendChild(_('h2', {}, group));
+            parent.appendChild(_('h2', {}, [_('', group)]));
             var papers = grouped[group];
             papers.sort(_paperComparator);
             parent.appendChild(_('table', { 'className': 'table' }, [
