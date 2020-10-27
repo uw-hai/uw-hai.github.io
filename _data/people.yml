@@ -58,7 +58,7 @@ kyle:
     display_name: "Kyle Xiao"
     role: grad
     webpage: "http://kylexiao.xyz/home.html"
-    image: /img/people/kyle
+    # image: /img/people/kyle.png
 
 zhou:
     display_name: "Joyce Zhou"
