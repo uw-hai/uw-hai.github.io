@@ -53,17 +53,22 @@ wtshuang:
     webpage: "https://homes.cs.washington.edu/~wtshuang/"
     role: grad
     image: /img/people/wtshuang.png
+    
+kyle:
+    display_name: "Kyle Xiao"
+    role: grad
+    webpage: "http://kylexiao.xyz/home.html"
+    image: /img/people/kyle
 
 zhou:
     display_name: "Joyce Zhou"
     role: ugrad
     webpage: "https://cephcyn.github.io/"
     image: /img/people/joyce.png
+    
 
-sippy:
-    display_name: "Jake Sippy"
-    role: ugrad
-    #image: /img/people/placeholder.jpg
+
+   
 
 
 # Alums
@@ -181,6 +186,11 @@ lynsey:
     role: ugrad-alum 
     bio: "BS, Now at Microsoft"
     webpage: "https://www.linkedin.com/in/lynseyliu"
+   
+sippy:
+    display_name: "Jake Sippy"
+    role: ugrad-alum
+    bio: "BS"
 
 jbragg2:
     display_name: "Jonathan Bragg"
