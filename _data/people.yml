@@ -37,7 +37,7 @@ lee:
 
 radensky:
     display_name: "Marissa Radensky"
-    webpage:
+    webpage: "https://mradensky.github.io/research/"
     role: grad
     image: /img/people/radensky.jpg
 
