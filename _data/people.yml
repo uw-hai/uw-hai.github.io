@@ -156,14 +156,14 @@ corin:
 wen:
     display_name: "Shih-Wen Huang"
     role: ugrad-alum
-    webpage: "www.linkedin.com/in/shih-wen-huang-149b7757"
+    webpage: "https://www.linkedin.com/in/shih-wen-huang-149b7757"
     bio: "MS, Jizhi.co"
 
 jonany:
     display_name: "Stephen Jonany"
     role: ugrad-alum
     bio: "MS, Now at Google"
-    webpage: "//www.linkedin.com/in/stephen-jonany-81b89429"
+    webpage: "https://www.linkedin.com/in/stephen-jonany-81b89429"
 
 bansalg:
     display_name: "Gagan Bansal"
@@ -186,7 +186,7 @@ huang:
     display_name: "Ziyao Huang"
     role: ugrad-alum 
     bio: "BS, Now at Brown University"
-    webpage: "ihttps://www.linkedin.com/in/yaozi"
+    webpage: "https://www.linkedin.com/in/yaozi"
 
 iftime:
     display_name: "Diana Iftimie"
