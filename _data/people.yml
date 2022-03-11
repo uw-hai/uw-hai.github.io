@@ -15,12 +15,7 @@ danw:
 # Grads
 # Alphabetical order
 
-bansalg:
-    display_name: "Gagan Bansal"
-    webpage: "https://homes.cs.washington.edu/~bansalg/"
-    github: gagb
-    role: grad
-    image: /img/people/bansalg.jpg
+
 
 cqz:
     display_name: "Quanze (Jim) Chen"
@@ -49,8 +44,9 @@ rayfok:
     image: /img/people/rayfok.jpg
 
 wtshuang:
-    display_name: "Tongshuang (Sherry) Wu"
+    display_name: "Sherry Tongshuang Wu"
     webpage: "https://homes.cs.washington.edu/~wtshuang/"
+    github: tongshuangwu
     role: grad
     image: /img/people/wtshuang.png
     
@@ -65,9 +61,15 @@ zhou:
     role: ugrad
     webpage: "https://cephcyn.github.io/"
     image: /img/people/joyce.png
-    
 
+mgrunde:
+    display_name: "Madeleine Grunde-McLaughin"
+    webpage: "https://madeleinegrunde.github.io/"
+    github: madeleinegrunde
+    role: grad
+    image: "https://madeleinegrunde.github.io/images/profile.JPG"
 
+  
    
 
 
@@ -163,12 +165,22 @@ jonany:
     bio: "MS, Now at Google"
     webpage: "//www.linkedin.com/in/stephen-jonany-81b89429"
 
+bansalg:
+    display_name: "Gagan Bansal"
+    webpage: "https://homes.cs.washington.edu/~bansalg/"
+    github: gagb
+    role: grad-alum
+    image: /img/people/bansalg.jpg
+
 # Undergrads
 # Alphabetical order
 
 
 # Undergrad Alums
 # Alphabetical order
+
+
+
 huang:
     display_name: "Ziyao Huang"
     role: ugrad-alum 
@@ -202,6 +214,17 @@ downey:
     display_name: "Doug Downey"
     webpage: "https://users.cs.northwestern.edu/~ddowney/"
     role: collab
+
+zhou:
+    display_name: "Joyce Zhou"
+    role: ugrad-alum
+    webpage: "https://cephcyn.github.io/"
+    image: /img/people/joyce.png
+
+
+
+# Collaborator
+# Alphabetical order
 
 findlater:
     display_name: "Leah Findlater"
