@@ -48,7 +48,7 @@ wtshuang:
     webpage: "https://homes.cs.washington.edu/~wtshuang/"
     github: tongshuangwu
     role: grad
-    image: /img/people/wtshuang.png
+    image: "https://homes.cs.washington.edu/~wtshuang/static/others/avatar.png"
     
 kyle:
     display_name: "Kyle Xiao"
@@ -169,6 +169,7 @@ bansalg:
     display_name: "Gagan Bansal"
     webpage: "https://homes.cs.washington.edu/~bansalg/"
     github: gagb
+    bio: "Now at Microsoft Research"
     role: grad-alum
     image: /img/people/bansalg.jpg
 
@@ -218,6 +219,7 @@ downey:
 zhou:
     display_name: "Joyce Zhou"
     role: ugrad-alum
+    bio: "Now at Cornell University"
     webpage: "https://cephcyn.github.io/"
     image: /img/people/joyce.png
 
