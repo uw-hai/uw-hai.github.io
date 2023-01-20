@@ -3,184 +3,139 @@
 
 danw:
     display_name: "Dan Weld"
-    webpage: "https://www.cs.washington.edu/people/faculty/weld"
     role: faculty
     image: /img/people/danw.jpg
-    #bio: "Professor"
-
+    webpage: "https://www.cs.washington.edu/people/faculty/weld"
+    bio: "Professor Emeritus, General Manager & Chief Scientist at Semantic Scholar (AI2)"
 
 # Postdocs/Collaborators
 # Alphabetical order
 
+
 # Grads
 # Alphabetical order
 
-
-
-cqz:
-    display_name: "Quanze (Jim) Chen"
-    webpage: "https://homes.cs.washington.edu/~cqz/"
-    github: jabbany
-    role: grad
-    image: /img/people/cqz.png
-
-lee:
-    display_name: "Benjamin Lee"
-    webpage: "https://www.bcglee.com"
-    role: grad
-    image: /img/people/lee.png
-
-radensky:
-    display_name: "Marissa Radensky"
-    webpage: "https://marissaradensky.github.io/research/"
-    role: grad
-    image: /img/people/radensky.jpg
-
 rayfok:
     display_name: "Raymond Fok"
-    webpage: "https://rayfok.github.io/"
     github: rayfok
     role: grad
     image: /img/people/rayfok.jpg
+    webpage: "https://rayfok.github.io/"
 
-wtshuang:
-    display_name: "Sherry Tongshuang Wu"
-    webpage: "https://homes.cs.washington.edu/~wtshuang/"
-    github: tongshuangwu
+lee:
+    display_name: "Benjamin Lee"
     role: grad
-    image: "https://homes.cs.washington.edu/~wtshuang/static/others/avatar.png"
-    
-kyle:
-    display_name: "Kyle Xiao"
-    role: grad
-    webpage: "http://kylexiao.xyz/home.html"
-    image: /img/people/kyle.png
-
-zhou:
-    display_name: "Joyce Zhou"
-    role: ugrad
-    webpage: "https://cephcyn.github.io/"
-    image: /img/people/joyce.png
+    image: /img/people/lee.png
+    webpage: "https://www.bcglee.com"
 
 mgrunde:
     display_name: "Madeleine Grunde-McLaughin"
-    webpage: "https://madeleinegrunde.github.io/"
     github: madeleinegrunde
     role: grad
     image: "https://madeleinegrunde.github.io/images/profile.JPG"
+    webpage: "https://madeleinegrunde.github.io/"
 
-  
-   
-
-
-# Alums
-# The order is: PhD/postdoc by year; MS by year; BS by year
-
-akolobov:
-    display_name: "Andrey Kolobov"
-    webpage: "https://www.microsoft.com/en-us/research/people/akolobov/"
-    role: alum
-    image: /img/people/akolobov.jpg
-    bio: "Now at Microsoft Research"
-
-chrislin:
-    display_name: "Christopher Lin"
-    webpage: "https://www.christopherhlin.com/"
-    role: alum
-    image: /img/people/chrislin.jpg
-    bio: "Now at Microsoft/Semantic Machines"
-
-dai:
-    display_name: "Peng Dai"
-    role: alum
-    bio: "Now at JD Finance"
-    webpage: "https://www.linkedin.com/in/daipeng/"
-
-drapeau:
-    display_name: "Ryan Drapeau"
-    role: ugrad-alum
-    bio: "MS, Now at Stripe"
-    webpage: "https://www.linkedin.com/in/rdrapeau"
-
-dgorrie:
-    display_name: "Daniel Gorrie"
-    webpage: "https://www.linkedin.com/in/daniel-gorrie-49168141"
-    role: ugrad-alum
-    image: /img/people/dgorrie.jpg
-    bio: "MS, Now at Stripe"
-
-jbragg:
-    display_name: "Jonathan Bragg"
-    webpage: "https://www.jonathanbragg.com"
-    role: alum
-    image: /img/people/jbragg.jpg
-    bio: "Now at AI2"
-
-hmslydia:
-    display_name: "Lydia Chilton"
-    webpage: "http://hmslydia.com/"
-    role: alum
-    image: /img/people/lydia.jpg
-    bio: "Now at Columbia University"
-
-hoffmann:
-    display_name: "Raphael Hoffmann"
-    webpage: "http://raphaelhoffmann.com"
-    role: alum
-    bio: "Now at Google"
-
-edar:
-    display_name: "Eytan Adar"
-    webpage: "https://www.si.umich.edu/people/eytan-adar"
-    role: alum
-    bio: "Now at University of Michigan"
-
-gajos:
-    display_name: "Krzysztof Gajos"
-    webpage: "https://www.eecs.harvard.edu/~kgajos/"
-    role: alum
-    bio: "Now at Harvard"
-
-lau: 
-    display_name: "Tessa Lau"
-    webpage: "https://www.linkedin.com/in/tessalau"
-    role: alum
-    bio: "Now at Dusty Robotics"
-
-corin: 
-    display_name: "Corin Anderson"
-    role: alum
-    bio: "Now at Google"
-    webpage: "https://www.linkedin.com/in/corin-anderson-449238102"
-
-wen:
-    display_name: "Shih-Wen Huang"
-    role: ugrad-alum
-    webpage: "https://www.linkedin.com/in/shih-wen-huang-149b7757"
-    bio: "MS, Jizhi.co"
-
-jonany:
-    display_name: "Stephen Jonany"
-    role: ugrad-alum
-    bio: "MS, Now at Google"
-    webpage: "https://www.linkedin.com/in/stephen-jonany-81b89429"
-
-bansalg:
-    display_name: "Gagan Bansal"
-    webpage: "https://homes.cs.washington.edu/~bansalg/"
-    github: gagb
-    bio: "Now at Microsoft Research"
-    role: alum
-    image: /img/people/bansalg.jpg
+radensky:
+    display_name: "Marissa Radensky"
+    role: grad
+    image: /img/people/radensky.jpg
+    webpage: "https://marissaradensky.github.io/research/"
 
 # Undergrads
 # Alphabetical order
 
+  
+# Alums
+# The order is: PhD/postdoc by year; MS by year; BS by year
+cqz:
+    display_name: "Quanze (Jim) Chen"
+    github: jabbany
+    role: alum
+    image: /img/people/cqz.png
+    webpage: "https://homes.cs.washington.edu/~cqz/"
+    bio: "Postdoc at University of Washington"
+
+wtshuang:
+    display_name: "Sherry Tongshuang Wu"
+    github: tongshuangwu
+    role: grad
+    webpage: "https://www.cs.cmu.edu/~sherryw/"
+    bio: "Assistant Professor at CMU
+
+bansalg:
+    display_name: "Gagan Bansal"
+    github: gagb
+    role: alum
+    image: /img/people/bansalg.jpg
+    webpage: "https://homes.cs.washington.edu/~bansalg/"
+    bio: "Senior Researcher at Microsoft Research"
+
+akolobov:
+    display_name: "Andrey Kolobov"
+    role: alum
+    image: /img/people/akolobov.jpg
+    webpage: "https://www.microsoft.com/en-us/research/people/akolobov/"
+    bio: "Research Manager at Microsoft Research"
+
+chrislin:
+    display_name: "Christopher Lin"
+    role: alum
+    image: /img/people/chrislin.jpg
+    webpage: "https://www.christopherhlin.com/"
+    bio: "Researcher at Microsoft/Semantic Machines"
+
+dai:
+    display_name: "Peng Dai"
+    role: alum
+    webpage: "https://www.linkedin.com/in/daipeng/"
+    bio: "Senior Manager at JD Finance"
+
+jbragg:
+    display_name: "Jonathan Bragg"
+    role: alum
+    image: /img/people/jbragg.jpg
+    webpage: "https://www.jonathanbragg.com"
+    bio: "Senior Research Scientist at AI2"
+
+hmslydia:
+    display_name: "Lydia Chilton"
+    role: alum
+    image: /img/people/lydia.jpg
+    webpage: "http://hmslydia.com/"
+    bio: "Professor at Columbia University"
+
+hoffmann:
+    display_name: "Raphael Hoffmann"
+    role: alum
+    webpage: "http://raphaelhoffmann.com"
+    bio: "Director of Engineering at Google Research"
+
+edar:
+    display_name: "Eytan Adar"
+    role: alum
+    webpage: "https://www.si.umich.edu/people/eytan-adar"
+    bio: "Associate Professor at University of Michigan"
+
+gajos:
+    display_name: "Krzysztof Gajos"
+    role: alum
+    webpage: "https://www.eecs.harvard.edu/~kgajos/"
+    bio: "Professor at Harvard"
+
+corin: 
+    display_name: "Corin Anderson"
+    role: alum
+    webpage: "https://www.linkedin.com/in/corin-anderson-449238102"
+    bio: "Software Engineer at Google"
+
+lau: 
+    display_name: "Tessa Lau"
+    role: alum
+    webpage: "https://www.linkedin.com/in/tessalau"
+    bio: "Founder/CEO at Dusty Robotics"
 
 # Undergrad Alums
 # Alphabetical order
-
-
 
 huang:
     display_name: "Ziyao Huang"
@@ -193,49 +148,77 @@ iftime:
     role: ugrad-alum 
     bio: "BS, Now at Microsoft"
     webpage: "https://www.linkedin.com/in/diana-a-iftimie"
-
+    
 lynsey:
     display_name: "Lynsey Liu"
     role: ugrad-alum 
     bio: "BS, Now at Microsoft"
     webpage: "https://www.linkedin.com/in/lynseyliu"
-   
+
+drapeau:
+    display_name: "Ryan Drapeau"
+    role: ugrad-alum
+    webpage: "https://www.linkedin.com/in/rdrapeau"
+    bio: "MS, Staff Software Engineer at Stripe"
+
+dgorrie:
+    display_name: "Daniel Gorrie"
+    webpage: "https://www.linkedin.com/in/daniel-gorrie-49168141"
+    role: ugrad-alum
+    image: /img/people/dgorrie.jpg
+    bio: "MS, Software Engineer at Stripe"
+    
+wen:
+    display_name: "Shih-Wen Huang"
+    role: ugrad-alum
+    webpage: "https://www.linkedin.com/in/shih-wen-huang-149b7757"
+    bio: "MS, Co-founder at Jizhi.co"
+
+jonany:
+    display_name: "Stephen Jonany"
+    role: ugrad-alum
+    webpage: "https://www.linkedin.com/in/stephen-jonany-81b89429"
+    bio: "MS, Senior Software Engineer at Snowflake"
+
 sippy:
     display_name: "Jake Sippy"
     role: ugrad-alum
-    bio: "BS"
+    bio: "MS"
+
+kyle:
+    display_name: "Kyle Xiao"
+    role: ugrad-alum
+    webpage: "http://kylexiao.xyz/home.html"
+    image: /img/people/kyle.png
+    bio: "MS, Quantitative Developer at Jump Crypto"
+
+zhou:
+    display_name: "Joyce Zhou"
+    role: ugrad-alum
+    webpage: "https://cephcyn.github.io/"
+    image: /img/people/joyce.png
+    bio: "MS, Now at Cornell University"
+
+# Collaborator
+# Alphabetical order
 
 jbragg2:
     display_name: "Jonathan Bragg"
     webpage: "https://www.jonathanbragg.com"
-    role: collab 
-
+    role: collab
 
 downey:
     display_name: "Doug Downey"
     webpage: "https://users.cs.northwestern.edu/~ddowney/"
     role: collab
 
-zhou:
-    display_name: "Joyce Zhou"
-    role: ugrad-alum
-    bio: "Now at Cornell University"
-    webpage: "https://cephcyn.github.io/"
-    image: /img/people/joyce.png
-
-
-
-# Collaborator
-# Alphabetical order
-
 findlater:
     display_name: "Leah Findlater"
     webpage: "https://www.hcde.washington.edu/findlater"
     role: collab
 
-
 heer:
-    display_name: "Jeff Heer"
+    display_name: "Jeffrey Heer"
     webpage: "https://homes.cs.washington.edu/~jheer/"
     role: collab
 
@@ -244,21 +227,14 @@ horvitz:
     webpage: "http://erichorvitz.com"
     role: collab
 
-
 kamar:
     display_name: "Ece Kamar"
     webpage: "https://www.ecekamar.com"
     role: collab
 
-
 mausam:
     display_name: "Mausam"
     webpage: "http://www.cse.iitd.ernet.in/~mausam/"
-    role: collab
-
-marco:
-    display_name: "Marco Tulio Ribeiro"
-    webpage: "https://homes.cs.washington.edu/~marcotcr/"
     role: collab
 
 nushi:
@@ -266,8 +242,12 @@ nushi:
     webpage: "https://www.microsoft.com/en-us/research/people/benushi/"
     role: collab
 
+marco:
+    display_name: "Marco Tulio Ribeiro"
+    webpage: "https://homes.cs.washington.edu/~marcotcr/"
+    role: collab
+
 zhang:
     display_name: "Amy Zhang"
     webpage: "https://homes.cs.washington.edu/~axz/"
     role: collab
-
