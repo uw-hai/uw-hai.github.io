@@ -38,7 +38,7 @@ lee:
 radensky:
     display_name: "Marissa Radensky"
     role: grad
-    image: /img/people/radensky.jpg
+    image: "https://marissaradensky.github.io/research/me.png"
     webpage: "https://marissaradensky.github.io/research/"
 
 # Undergrads
@@ -140,19 +140,19 @@ lau:
 huang:
     display_name: "Ziyao Huang"
     role: ugrad-alum 
-    bio: "BS, Now at Brown University"
+    bio: "BS, Software Engineer at Amazon"
     webpage: "https://www.linkedin.com/in/yaozi"
 
 iftime:
     display_name: "Diana Iftimie"
     role: ugrad-alum 
-    bio: "BS, Now at Microsoft"
+    bio: "BS, Software Engineer at Microsoft"
     webpage: "https://www.linkedin.com/in/diana-a-iftimie"
     
 lynsey:
     display_name: "Lynsey Liu"
     role: ugrad-alum 
-    bio: "BS, Now at Microsoft"
+    bio: "BS, Software Engineer at Pinwheel"
     webpage: "https://www.linkedin.com/in/lynseyliu"
 
 drapeau:
@@ -183,21 +183,22 @@ jonany:
 sippy:
     display_name: "Jake Sippy"
     role: ugrad-alum
+    webpage: "https://www.linkedin.com/in/jake-sippy/"
     bio: "MS"
 
 kyle:
     display_name: "Kyle Xiao"
     role: ugrad-alum
-    webpage: "http://kylexiao.xyz/home.html"
     image: /img/people/kyle.png
+    webpage: "http://kylexiao.xyz/home.html"
     bio: "MS, Quantitative Developer at Jump Crypto"
 
 zhou:
     display_name: "Joyce Zhou"
     role: ugrad-alum
-    webpage: "https://cephcyn.github.io/"
     image: /img/people/joyce.png
-    bio: "MS, Now at Cornell University"
+    webpage: "https://cephcyn.github.io/"
+    bio: "MS, PhD Student at Cornell University"
 
 # Collaborator
 # Alphabetical order
