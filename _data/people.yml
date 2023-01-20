@@ -139,33 +139,33 @@ lau:
 
 huang:
     display_name: "Ziyao Huang"
-    role: ugrad-alum 
-    bio: "BS, Software Engineer at Amazon"
+    role: ugrad-alum
     webpage: "https://www.linkedin.com/in/yaozi"
+    bio: "BS, Software Engineer at Amazon"
 
 iftime:
     display_name: "Diana Iftimie"
-    role: ugrad-alum 
-    bio: "BS, Software Engineer at Microsoft"
+    role: ugrad-alum
     webpage: "https://www.linkedin.com/in/diana-a-iftimie"
+    bio: "BS, Software Engineer at Microsoft"
     
 lynsey:
     display_name: "Lynsey Liu"
-    role: ugrad-alum 
-    bio: "BS, Software Engineer at Pinwheel"
+    role: ugrad-alum
     webpage: "https://www.linkedin.com/in/lynseyliu"
+    bio: "BS, Software Engineer at Pinwheel"
 
 drapeau:
     display_name: "Ryan Drapeau"
     role: ugrad-alum
     webpage: "https://www.linkedin.com/in/rdrapeau"
-    bio: "MS, Staff Software Engineer at Stripe"
+    bio: "MS, Software Engineer at Stripe"
 
 dgorrie:
     display_name: "Daniel Gorrie"
-    webpage: "https://www.linkedin.com/in/daniel-gorrie-49168141"
     role: ugrad-alum
     image: /img/people/dgorrie.jpg
+    webpage: "https://www.linkedin.com/in/daniel-gorrie-49168141"
     bio: "MS, Software Engineer at Stripe"
     
 wen:
@@ -178,7 +178,7 @@ jonany:
     display_name: "Stephen Jonany"
     role: ugrad-alum
     webpage: "https://www.linkedin.com/in/stephen-jonany-81b89429"
-    bio: "MS, Senior Software Engineer at Snowflake"
+    bio: "MS, Software Engineer at Snowflake"
 
 sippy:
     display_name: "Jake Sippy"
