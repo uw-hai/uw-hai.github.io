@@ -22,18 +22,18 @@ rayfok:
     image: /img/people/rayfok.jpg
     webpage: "https://rayfok.github.io/"
 
-lee:
-    display_name: "Benjamin Lee"
-    role: grad
-    image: /img/people/lee.png
-    webpage: "https://www.bcglee.com"
-
 mgrunde:
     display_name: "Madeleine Grunde-McLaughin"
     github: madeleinegrunde
     role: grad
     image: "https://madeleinegrunde.github.io/images/profile.JPG"
     webpage: "https://madeleinegrunde.github.io/"
+
+lee:
+    display_name: "Benjamin Lee"
+    role: grad
+    image: /img/people/lee.png
+    webpage: "https://www.bcglee.com"
 
 radensky:
     display_name: "Marissa Radensky"
@@ -58,7 +58,7 @@ cqz:
 wtshuang:
     display_name: "Sherry Tongshuang Wu"
     github: tongshuangwu
-    role: grad
+    role: alum
     webpage: "https://www.cs.cmu.edu/~sherryw/"
     bio: "Assistant Professor at CMU
 
