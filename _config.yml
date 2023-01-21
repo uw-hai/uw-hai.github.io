@@ -13,17 +13,10 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: faculty
     name: Faculty
-  # Restore me when we add some staff
-  # - key: staff
-  #   name: Staff
-  #- key: postdoc
-    #name: Researchers
   - key: grad
     name: PhD Students
-  - key: ugrad
-    name: MS/BS Students
   - key: ugrad-alum
-    name: MS/BS Alumni 
+    name: MS/BS Alumni
   - key: collab
     name: Collaborators
   - key: alum
@@ -44,8 +37,8 @@ collections:
 navigation:
   - title: Home
     link: /
-  - title: People
-    link: /#people
+  # - title: People
+  #   link: /#people
   #- title: Research
     #link: /research.html
   - title: Publications
