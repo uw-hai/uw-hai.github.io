@@ -44,13 +44,13 @@ radensky:
 # Undergrads
 # Alphabetical order
 
-  
+
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
 cqz:
     display_name: "Quanze (Jim) Chen"
     github: jabbany
-    role: alum
+    role: alum #2023
     image: /img/people/cqz.png
     webpage: "https://homes.cs.washington.edu/~cqz/"
     bio: "Postdoc at University of Washington"
@@ -58,102 +58,85 @@ cqz:
 wtshuang:
     display_name: "Sherry Tongshuang Wu"
     github: tongshuangwu
-    role: alum
+    role: alum # 2022
     webpage: "https://www.cs.cmu.edu/~sherryw/"
     bio: "Assistant Professor at CMU"
 
 bansalg:
     display_name: "Gagan Bansal"
     github: gagb
-    role: alum
+    role: alum # 2022
     image: /img/people/bansalg.jpg
     webpage: "https://homes.cs.washington.edu/~bansalg/"
     bio: "Senior Researcher at Microsoft Research"
 
-akolobov:
-    display_name: "Andrey Kolobov"
-    role: alum
-    image: /img/people/akolobov.jpg
-    webpage: "https://www.microsoft.com/en-us/research/people/akolobov/"
-    bio: "Research Manager at Microsoft Research"
-
-chrislin:
-    display_name: "Christopher Lin"
-    role: alum
-    image: /img/people/chrislin.jpg
-    webpage: "https://www.christopherhlin.com/"
-    bio: "Researcher at Microsoft/Semantic Machines"
-
-dai:
-    display_name: "Peng Dai"
-    role: alum
-    webpage: "https://www.linkedin.com/in/daipeng/"
-    bio: "Senior Manager at JD Finance"
-
 jbragg:
     display_name: "Jonathan Bragg"
-    role: alum
+    role: alum # 2018
     image: /img/people/jbragg.jpg
     webpage: "https://www.jonathanbragg.com"
     bio: "Senior Research Scientist at AI2"
 
+chrislin:
+    display_name: "Christopher Lin"
+    role: alum # 2017
+    image: /img/people/chrislin.jpg
+    webpage: "https://www.christopherhlin.com/"
+    bio: "Researcher at Microsoft/Semantic Machines"
+
 hmslydia:
     display_name: "Lydia Chilton"
-    role: alum
+    role: alum # 2015
     image: /img/people/lydia.jpg
     webpage: "http://hmslydia.com/"
     bio: "Professor at Columbia University"
 
+akolobov:
+    display_name: "Andrey Kolobov"
+    role: alum # 2013
+    image: /img/people/akolobov.jpg
+    webpage: "https://www.microsoft.com/en-us/research/people/akolobov/"
+    bio: "Research Manager at Microsoft Research"
+
 hoffmann:
     display_name: "Raphael Hoffmann"
-    role: alum
+    role: alum # 2012
     webpage: "http://raphaelhoffmann.com"
     bio: "Director of Engineering at Google Research"
 
+dai:
+    display_name: "Peng Dai"
+    role: alum # 2011
+    webpage: "https://www.linkedin.com/in/daipeng/"
+    bio: "Senior Manager at JD Finance"
+
 edar:
     display_name: "Eytan Adar"
-    role: alum
+    role: alum # 2009
     webpage: "https://www.si.umich.edu/people/eytan-adar"
     bio: "Associate Professor at University of Michigan"
 
 gajos:
     display_name: "Krzysztof Gajos"
-    role: alum
+    role: alum # 2008
     webpage: "https://www.eecs.harvard.edu/~kgajos/"
     bio: "Professor at Harvard"
 
-corin: 
+corin:
     display_name: "Corin Anderson"
-    role: alum
+    role: alum # 2002
     webpage: "https://www.linkedin.com/in/corin-anderson-449238102"
     bio: "Software Engineer at Google"
 
-lau: 
+lau:
     display_name: "Tessa Lau"
-    role: alum
+    role: alum # 2001
     webpage: "https://www.linkedin.com/in/tessalau"
     bio: "Founder/CEO at Dusty Robotics"
 
+
 # Undergrad Alums
 # Alphabetical order
-
-huang:
-    display_name: "Ziyao Huang"
-    role: ugrad-alum
-    webpage: "https://www.linkedin.com/in/yaozi"
-    bio: "BS, Software Engineer at Amazon"
-
-iftime:
-    display_name: "Diana Iftimie"
-    role: ugrad-alum
-    webpage: "https://www.linkedin.com/in/diana-a-iftimie"
-    bio: "BS, Software Engineer at Microsoft"
-    
-lynsey:
-    display_name: "Lynsey Liu"
-    role: ugrad-alum
-    webpage: "https://www.linkedin.com/in/lynseyliu"
-    bio: "BS, Software Engineer at Pinwheel"
 
 drapeau:
     display_name: "Ryan Drapeau"
@@ -167,18 +150,36 @@ dgorrie:
     image: /img/people/dgorrie.jpg
     webpage: "https://www.linkedin.com/in/daniel-gorrie-49168141"
     bio: "MS, Software Engineer at Stripe"
-    
+
 wen:
     display_name: "Shih-Wen Huang"
     role: ugrad-alum
     webpage: "https://www.linkedin.com/in/shih-wen-huang-149b7757"
     bio: "MS, Co-founder at Jizhi.co"
 
+huang:
+    display_name: "Ziyao Huang"
+    role: ugrad-alum
+    webpage: "https://www.linkedin.com/in/yaozi"
+    bio: "BS, Software Engineer at Amazon"
+
+iftime:
+    display_name: "Diana Iftimie"
+    role: ugrad-alum
+    webpage: "https://www.linkedin.com/in/diana-a-iftimie"
+    bio: "BS, Software Engineer at Microsoft"
+
 jonany:
     display_name: "Stephen Jonany"
     role: ugrad-alum
     webpage: "https://www.linkedin.com/in/stephen-jonany-81b89429"
     bio: "MS, Software Engineer at Snowflake"
+
+lynsey:
+    display_name: "Lynsey Liu"
+    role: ugrad-alum
+    webpage: "https://www.linkedin.com/in/lynseyliu"
+    bio: "BS, Software Engineer at Pinwheel"
 
 sippy:
     display_name: "Jake Sippy"
@@ -202,11 +203,6 @@ zhou:
 
 # Collaborator
 # Alphabetical order
-
-jbragg2:
-    display_name: "Jonathan Bragg"
-    webpage: "https://www.jonathanbragg.com"
-    role: collab
 
 downey:
     display_name: "Doug Downey"
