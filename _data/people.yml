@@ -29,12 +29,6 @@ mgrunde:
     image: "https://madeleinegrunde.github.io/images/profile.JPG"
     webpage: "https://madeleinegrunde.github.io/"
 
-lee:
-    display_name: "Benjamin Lee"
-    role: grad
-    image: /img/people/lee.png
-    webpage: "https://www.bcglee.com"
-
 radensky:
     display_name: "Marissa Radensky"
     role: grad
@@ -47,10 +41,17 @@ radensky:
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
+lee:
+    display_name: "Benjamin Lee"
+    role: alum # 2023
+    image: /img/people/lee.png
+    webpage: "https://www.bcglee.com"
+    bio: "Assistant Professor at UW Information School"
+
 cqz:
     display_name: "Quanze (Jim) Chen"
     github: jabbany
-    role: alum #2023
+    role: alum # 2023
     image: /img/people/cqz.png
     webpage: "https://homes.cs.washington.edu/~cqz/"
     bio: "Postdoc at University of Washington"
